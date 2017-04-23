@@ -1,0 +1,46 @@
+#general{
+    background-color: lightblue;
+}
+
+#mainarea{
+    background-color: #000012;
+    margin-top: 10%;
+    margin-bottom: 15%;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+#terminal{
+    width: 100%;
+    height: 350px;
+    border: 1px solid white;
+}
+#textentry{
+    border: 1px solid white;
+    width: 100%;
+    height: 25px;
+    color: white;
+}
+
+blink {
+    -webkit-animation: blink 2s steps(5, start) infinite;
+    -moz-animation: blink 2s steps(5, start) infinite;
+    -o-animation: blink 2s steps(5, start) infinite;
+    animation: blink 2s steps(5, start) infinite;
+}
+
+@-webkit-keyframes blink{
+    to {visibility: hidden;}
+}
+
+@-moz-keyframes blink{
+    to {visibility: hidden;}
+}
+
+@-o-keyframes blink{
+    to {visibility: hidden;}
+}
+
+@keyframes blink{
+    to {visibility: hidden;}
+}
