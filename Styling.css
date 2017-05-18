@@ -22,6 +22,48 @@
     color: white;
 }
 
+#firstpart{
+  color:white;
+  -webkit-animation: typing 2s steps(168, end);
+  -moz-animation: typing 2s steps(168, end);
+  -webkit-animation-delay: 0s, 0s;
+  -moz-animation-delay: 0s, 0s;
+}
+
+#secondpart{
+  color:white;
+  -webkit-animation: typing 2s steps(158, end);
+  -moz-animation: typing 2s steps(158, end);
+  -webkit-animation-delay:2s;
+  -moz-animation-delay: 2s;
+}
+
+#thirdpart{
+  color:white;
+  -webkit-animation: typing 2s steps(181, end);
+  -moz-animation: typing 2s steps(181, end);
+  -webkit-animation-delay:4s;
+  -moz-animation-delay:4s;
+}
+
+#lastpart{
+  color:white;
+  -webkit-animation: typing 2s steps(15, end);
+  -moz-animation: typing 2s steps(15, end);
+  -webkit-animation-delay:6s;
+  -moz-animation-delay:6s;
+}
+
+h1{
+  display:inline-block;
+  margin-right: 100%;
+  color: black;
+  width:100%;
+  font-size:75%;
+  white-space:nowrap;
+  overflow:hidden;
+}
+
 blink {
     -webkit-animation: blink 2s steps(5, start) infinite;
     -moz-animation: blink 2s steps(5, start) infinite;
@@ -43,4 +85,14 @@ blink {
 
 @keyframes blink{
     to {visibility: hidden;}
+}
+
+@-webkit-keyframes typing{
+  from {width:0%;}
+  to {width: 100%;}
+}
+
+@-moz-keyframes typing{
+  from {width:0%;}
+  to {width: 100%;}
 }
